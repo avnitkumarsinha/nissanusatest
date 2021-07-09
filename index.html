@@ -101,10 +101,9 @@ submitForm = async function() {
    userId,
    message: "request successful", // optional
    contextVariables: [
-     {"name": "name", "value": name},
-     {"name": "color", "value": color},
-     {"name": "swallow", "value": swallow}
-   ],
+     {"name": "requestType", "value": requestType},
+     {"name": "turnIn", "value": turnIn},
+    ],
  });
 }
     async function postData(url = '', auth, data = {}) {
