@@ -65,13 +65,10 @@
 <body>
     <form action="/my-handling-form-page" method="post">
         <div>
-          <label for="name">What is your name?</label> <input type="text" id="name" name="user_name">
+          <label for="name">What type of Leave Request you want to raise (Acvitate LANId /Deactivate LANId?</label> <input type="text" id="requestType" name="requestType">
         </div>
         <div>
-          <label for="mail">What is your favorite color?</label> <input type="text" id="color" name="favorite_color">
-        </div>
-        <div>
-          <label for="msg">What is the land speed velocity of an unladen swallow?</label> <input id="swallow" name="unladen_swallow"></input>
+          <label for="mail">Do you want to turn in your computer (yes/no)?</label> <input type="text" id="turnIn" name="turnIn">
         </div>
         <div class="button">
           <button type="button" onclick="submitForm()">Send your message</button>
